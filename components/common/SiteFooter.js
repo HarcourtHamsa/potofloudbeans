@@ -60,7 +60,7 @@ const SiteFooter = () => {
         </div>
         <div className="flex-grow mb-4 md:mb-0">
           <p className="text-center md:text-left text-gray-600 text-xs md:ml-8 md:max-w-3xl">
-          copyright &copy; of pot of loud beans {currentYear}
+          copyright
           </p>
         </div>
         <div className="flex-1-grow">
