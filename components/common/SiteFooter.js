@@ -7,6 +7,7 @@ import { FaTwitter, FaInstagram, FaSlack, FaYoutube } from "react-icons/fa";
  */
 
 const SiteFooter = () => {
+  let currentYear = new Date().getFullYear()
   // set up Agility CMS Socials
   const socials = [
     {
@@ -59,7 +60,7 @@ const SiteFooter = () => {
         </div>
         <div className="flex-grow mb-4 md:mb-0">
           <p className="text-center md:text-left text-gray-600 text-xs md:ml-8 md:max-w-3xl">
-          copyright &copy; of pot of loud beans {new Date().getFullYear()}
+          copyright &copy; of pot of loud beans {currentYear}
           </p>
         </div>
         <div className="flex-1-grow">
