@@ -59,34 +59,7 @@ const SiteFooter = () => {
         </div>
         <div className="flex-grow mb-4 md:mb-0">
           <p className="text-center md:text-left text-gray-600 text-xs md:ml-8 md:max-w-3xl">
-            Powered by Agility CMS. This website and materials found on it are
-            for demo purposes. You can use this to preview the content you
-            created on your Agility CMS account.{"\u00A0"}
-            <a
-              href="https://github.com/agility/agilitycms-nextjs-starter"
-              title="View on GitHub"
-              target="_blank"
-              className="text-gray-600 mr-2 border-b border-gray-600"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://help.agilitycms.com/hc/en-us"
-              title="Help Center"
-              target="_blank"
-              className="text-gray-600 mr-1 border-b border-gray-600"
-            >
-              Help Center
-            </a>
-            {"\u00A0"}
-            <a
-              href="https://agilitycms.com/contact-us/chat-sales"
-              title="Contact Us"
-              target="_blank"
-              className="text-gray-600 border-b border-gray-600"
-            >
-              Contact Us
-            </a>
+          copyright &copy; of pot of loud beans {new Date().getFullYear()}
           </p>
         </div>
         <div className="flex-1-grow">
