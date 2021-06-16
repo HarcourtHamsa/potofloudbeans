@@ -32,6 +32,9 @@ const SiteHeader = ({ globalData, sitemapNode, page }) => {
                   alt={header.logo.label}
                   title={header.logo.siteName}
                 />
+                 <p className="font-bold text-xl text-secondary-500 ml-3 mt-2">
+                  {header.siteName}
+                </p>
               </a>
             </Link>
           </div>
